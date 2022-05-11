@@ -31,13 +31,13 @@ public class Android2 {
                 caps.setCapability("project", "App Automation Demo");
                 caps.setCapability("build", "Android");
                 caps.setCapability("name", "Single Test");
-<<<<<<< HEAD
+//<<<<<<< HEAD
                 caps.setCapability("visual",true);
                 caps.setCapability("devicelog",true);
                 caps.setCapability("app", "lt://APP10020521642426864932379");
-=======
+//=======
                 caps.setCapability("app", android_appurl);
->>>>>>> 910c5909aa17e911af691826394760ed9441f4c0
+//>>>>>>> 910c5909aa17e911af691826394760ed9441f4c0
 
                 AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(
                                 new URL("https://" + userName + ":" + accessKey + "@beta-hub.lambdatest.com/wd/hub"),
